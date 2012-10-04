@@ -205,6 +205,27 @@
 }
 /* End: Play/pause */
 
+/* Speed */
+.mejs-controls .mejs-speed-half button {
+	background-position: -144px -32;
+}
+.mejs-controls .mejs-speed-normal button {
+	background-position: -144px 0;
+}
+.mejs-controls .mejs-speed-double button {
+	background-position: -144px -16px;
+}
+/* End: Play/pause */
+
+/* Skipping */
+.mejs-controls .mejs-skip-back button {
+	background-position: -176px 0;
+}
+.mejs-controls .mejs-skip-forward button {
+	background-position: -160px 0;
+}
+/* End: Skipping */
+
 /* Start: Progress bar */
 .mejs-controls div.mejs-time-rail {
 	width: 200px;
